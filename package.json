@@ -11,7 +11,7 @@
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --detectOpenHandles",
     "test:coverage:text": "jest --coverageReporters='text-summary'",
-    "storybook": "storybook dev -p 6006",
+    "storybook": "storybook dev -s ./public -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {

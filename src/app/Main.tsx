@@ -1,7 +1,9 @@
-export function Main() {
+export function Main({
+  title = 'Next'
+}) {
   return (
     <main>
-      <h1>Next</h1>
+      <h1>{title}</h1>
     </main>
   )
 }
