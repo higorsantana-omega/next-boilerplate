@@ -1,6 +1,4 @@
-export function Main({
-  title = 'Next'
-}) {
+export function Main({ title = 'Next' }) {
   return (
     <main>
       <h1>{title}</h1>
