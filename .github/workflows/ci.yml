@@ -14,13 +14,13 @@ jobs:
           node-version: 18.x
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install
 
       - name: Linting
-        run: npm run lint
+        run: pnpm run lint
 
       - name: Test
-        run: npm run test
+        run: pnpm run test
 
       - name: Build
-        run: npm run build
+        run: pnpm run build
